@@ -1,0 +1,22 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E5E5E5;
+  color: #333;
+  transition: background-color 0.3s; /* Smooth color transitions */
+}
+
+
+.main-content {
+  padding: 40px 0;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 85%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth color and shadow transitions */
+}
+
+html {
+  scroll-behavior: smooth;
+}
